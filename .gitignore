@@ -19,18 +19,37 @@ expo-env.d.ts
 
 # Metro
 .metro-health-check*
+metro-cache
 
 # debug
 npm-debug.*
 yarn-debug.*
 yarn-error.*
 
-# macOS
+# OS/IDE files
 .DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+*.iml
 *.pem
 
 # local env files
 .env*.local
+
+# Android build files
+/android/.gradle/
+android/app/build/
+android/app/debug.keystore
+
+# iOS build files
+/ios/Pods/
+ios/build/
+ios/*.xcworkspace
+ios/*.xcodeproj/project.xcworkspace
+ios/*.xcodeproj/xcuserdata/
 
 # typescript
 *.tsbuildinfo
