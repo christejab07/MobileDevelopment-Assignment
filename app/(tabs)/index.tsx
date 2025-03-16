@@ -32,6 +32,10 @@ export default function Index() {
       <View style={styles.platformBox}>
         <Text style={styles.text}>This box has platform-specific styles</Text>
       </View>
+      {/* Inline styles */}
+      <View>
+        <Text style={{ fontSize: 24, color: '#333', fontWeight: 'bold' }}>Inline styles</Text>
+      </View>
     </View>
   );
 }
